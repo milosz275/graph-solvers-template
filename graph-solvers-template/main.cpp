@@ -10,7 +10,6 @@
 int main()
 {
 	std::vector<Point> vertices = generateUniquePoints(15);
-
     std::vector<Edge> edges;
     int n = vertices.size();
     for (int i = 0; i < n; ++i)
@@ -21,10 +20,7 @@ int main()
             edges.push_back({ i, j, distance });
         }
     }
-
-    auto output_edges = solveProblem(vertices, edges);
-
-    drawSVG(vertices, output_edges);
-
+    auto outputEdges = solveProblem(vertices, edges);
+    drawSVG(vertices, outputEdges);
     return 0;
 }
