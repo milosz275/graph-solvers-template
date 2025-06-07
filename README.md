@@ -33,7 +33,7 @@ This project creates an entry point for implementing a solver for any graph prob
 
 ## Usage
 
-To use this template click `Use this template` and create a new repository or open the template in a codespaces [or use this template here]().
+To use this template click `Use this template` and create a new repository or open the template in a codespaces [or use this template here](https://github.com/new?template_name=graph-solvers-template&template_owner=milosz275).
 
 Then make sure to initialize submodules:
 
