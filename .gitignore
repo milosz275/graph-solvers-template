@@ -1,0 +1,12 @@
+.vs/
+.vscode/
+.idea/
+out/
+build
+*.out
+*.o
+*.a
+mst_visualization*.*
+*.bak
+docs/
+!assets/mst_visualization.svg
